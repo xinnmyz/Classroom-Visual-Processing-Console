@@ -1,0 +1,5 @@
+task,condition,metric,value,sample_count,split,model_name,model_version,metric_direction,notes
+课堂行为,原图,Macro-F1,0.82,100,test,example_model,1.0,high_is_better,替换为真实模型结果
+课堂行为,lowres_4_occ_1pct,Macro-F1,0.67,100,test,example_model,1.0,high_is_better,condition填写sample_manifest中的条件名
+投入度,原图,MAE,0.21,100,test,example_model,1.0,low_is_better,回归指标越低越好
+投入度,lowres_4_occ_1pct,MAE,0.35,100,test,example_model,1.0,low_is_better,condition填写sample_manifest中的条件名

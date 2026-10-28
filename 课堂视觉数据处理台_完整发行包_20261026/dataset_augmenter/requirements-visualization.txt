@@ -1,0 +1,2 @@
+# Optional dependency for PNG experiment curves and impact charts.
+matplotlib>=3.9
